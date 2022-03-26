@@ -1,0 +1,27 @@
+.button-1 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-2 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-3 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-4 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-5 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-6 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.button-7 {
+    padding: var(--lwc-spacingXSmall);
+    display: inline-block}
+.div-1 {
+    padding: 0;
+    display: block}
+.div-2 {
+    padding: 0;
+    display: block}

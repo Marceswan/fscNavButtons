@@ -1,0 +1,35 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-26-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="div-2 slds-p-around_large slds-p-top_large slds-p-right_large slds-p-bottom_large slds-p-left_large slds-card">
+        <div class="div-1 slds-p-around_large slds-p-top_large slds-p-right_large slds-p-bottom_large slds-p-left_large">
+            <div>
+                <div class="slds-m-top_small slds-align_absolute-center">
+                    <template if:true={useButton1}>
+                        <lightning-button class="button-2 slds-theme_brand" variant={variant1} label={label1} icon-position="left" type="button" onclick={handleNavigation1}></lightning-button>
+                    </template>
+                    <template if:true={useButton2}>
+                        <lightning-button class="button-3 slds-theme_brand" variant={variant2} label={label2} icon-position="left" type="button" onclick={handleNavigation2}></lightning-button>
+                    </template>
+                    <template if:true={useButton3}>
+                        <lightning-button class="button-4 slds-theme_brand" variant={variant3} label={label3} onclick={handleNavigation3} icon-position="left" type="button"></lightning-button>
+                    </template>
+                    <template if:true={useButton4}>
+                        <lightning-button class="button-5 slds-theme_brand" variant={variant4} label={label4} icon-position="left" type="button" onclick={handleNavigation4}></lightning-button>
+                    </template>
+                    <template if:true={useButton5}>
+                        <lightning-button class="button-6 slds-theme_brand" variant={variant5} label={label5} icon-position="left" type="button" onclick={handleNavigation5}></lightning-button>
+                    </template>
+                    <template if:true={useButton6}>
+                        <lightning-button class="button-7 slds-theme_brand" variant={variant6} label={label6} onclick={handleNavigation6}></lightning-button>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LightningComponentBundle>
+  <apiVersion>52</apiVersion>
+  <description>Flow Navigation Buttons LWC_FSC</description>
+  <isExposed>true</isExposed>
+  <masterLabel>Flow Navigation Buttons LWC_FSC</masterLabel>
+  <targets>
+    <target>lightning__FlowScreen</target>
+</targets>
+<targetConfigs>
+    <targetConfig targets="lightning__FlowScreen">
+      <property name="label1" type="String" label="Label Button 1" description="Label to be displayed."/>
+      <property name="buttonId1" type="String" label="Button ID 1" role="inputOnly"/>
+      <property name="variant1" type="String" role="inputOnly" label="Button 1 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton1" type="Boolean" label="Use Button 1" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="buttonId2" type="String" label="Button ID 2" role="inputOnly"/>
+      <property name="label2" type="String" label="Label Button 2" description="Label to be displayed."/>
+      <property name="variant2" type="String" role="inputOnly" label="Button 2 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton2" type="Boolean" label="Use Button 2" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="buttonId3" type="String" label="Button ID 3" role="inputOnly"/>
+      <property name="label3" type="String" label="Label Button 3" description="Label to be displayed."/>
+      <property name="variant3" type="String" role="inputOnly" label="Button 3 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton3" type="Boolean" label="Use Button 3" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="buttonId4" type="String" label="Button ID 4" role="inputOnly"/>
+      <property name="label4" type="String" label="Label Button 4" description="Label to be displayed."/>
+      <property name="variant4" type="String" role="inputOnly" label="Button 4 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton4" type="Boolean" label="Use Button 4" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="buttonId5" type="String" label="Button ID 5" role="inputOnly"/>
+      <property name="label5" type="String" label="Label Button 5" description="Label to be displayed."/>
+      <property name="variant5" type="String" role="inputOnly" label="Button 5 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton5" type="Boolean" label="Use Button 5" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="buttonId6" type="String" label="Button ID 6" role="inputOnly"/>
+      <property name="label6" type="String" label="Label Button 6" description="Label to be displayed."/>
+      <property name="variant6" type="String" role="inputOnly" label="Button 6 Variant type" description="Available variants: neutral, brand, outline-brand, destructive, text-destructive, success"/>
+      <property name="useButton6" type="Boolean" label="Use Button 6" role="inputOnly" description="Boolean Yes/No to enable or disable the button."/>
+      <property name="selectedButtonId" type="String" label="Selected Button ID" role="outputOnly"/>
+    </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
